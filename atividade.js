@@ -60,7 +60,7 @@ console.log(matriz[0][2], matriz[1][1], matriz[2][0]);
 console.log(matriz[2][0], matriz[1][1], matriz[0][2]);
 console.log(matriz[2][2], matriz[1][1], matriz[0][0]);
 
-// Crie um sistema de cadastro de usuário contendo uma única variável, 
+// Crie um sistema de cadastro de usuário contendo uma única variável,
 // onde os itens abaixo fiquem na respectiva ordem:
 // Nome
 // Idade
@@ -75,3 +75,9 @@ console.log(matriz[2][2], matriz[1][1], matriz[0][0]);
 // Você mora no endereço "Endereço", e tem um pet chamado "pet".
 // Sua idade é "idade" e gosta muito da fruta "fruta".
 // Sua cor favorita é "Cor Favorita".
+var user = ["Gustavo", 35, "Vermelho", "Maçã", "Rua da minha casa", "Loki"];
+
+console.log(`Olá ${user[0]}! Seja bem-vindo ao nosso sistema.`);
+console.log(`Você mora no endereço: ${user[4]}, e tem um pet chamado ${user[5]}.`);
+console.log(`Sua idade é ${user[1]} e gosta muito da fruta ${user[3]}.`);
+console.log(`Sua cor favorita é ${user[2]}.`);
